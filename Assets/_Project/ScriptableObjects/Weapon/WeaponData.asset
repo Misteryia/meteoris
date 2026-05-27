@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c66cee9af7c5344587478507c2730b4, type: 3}
+  m_Name: WeaponData
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  damageSingle: 2
+  damageAuto: 1
+  fireRateSingle: 3
+  fireRateAuto: 10
+  heatPerShotSingle: 8
+  heatPerShotAuto: 6
+  maxHeat: 100
+  heatDissipationRate: 25
+  overheatLockoutDuration: 3
+  overheatCooldownRate: 40
+  recoilImpulseSingle: 6
+  recoilImpulseAuto: 2
+  projectilePrefab: {fileID: 6331029228089759439, guid: a687ef85d4ad1a04bba26350595e627f, type: 3}
+  projectileSpeed: 40
+  projectileLifetime: 3
